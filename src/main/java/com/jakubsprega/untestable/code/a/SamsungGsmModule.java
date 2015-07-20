@@ -1,4 +1,4 @@
-package com.jakubsprega.untestable.code.b;
+package com.jakubsprega.untestable.code.a;
 
 import com.jakubsprega.untestable.code.api.GsmModule;
 
