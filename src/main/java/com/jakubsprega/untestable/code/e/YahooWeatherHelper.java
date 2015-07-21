@@ -15,6 +15,7 @@ public class YahooWeatherHelper {
         try {
             URL obj = new URL(WEATHER_SERVICE_BASE_URL);
             HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+            con.connect();
             return 10;
         } catch (Exception ex) {
             throw new RuntimeException(ex);
