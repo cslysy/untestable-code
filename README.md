@@ -6,3 +6,5 @@ How to write untestable code
 *  Doing work in constructor
 *  Global state
 *  Static methods
+*  Single responsibility principle
+*  Law of Demeter
