@@ -1,0 +1,89 @@
+{
+   "responseData":{
+      "results":[
+         {
+            "GsearchResultClass":"GwebSearch",
+            "unescapedUrl":"http://www.lhsystems.pl/",
+            "url":"http://www.lhsystems.pl/",
+            "visibleUrl":"www.lhsystems.pl",
+            "cacheUrl":"",
+            "title":"\u003cb\u003eLufthansa Systems Poland\u003c/b\u003e Sp z oo",
+            "titleNoFormatting":"Lufthansa Systems Poland Sp z oo",
+            "content":""
+         },
+         {
+            "GsearchResultClass":"GwebSearch",
+            "unescapedUrl":"http://www.trojmiasto.pl/Lufthansa-Systems-Poland-o2569.html",
+            "url":"http://www.trojmiasto.pl/Lufthansa-Systems-Poland-o2569.html",
+            "visibleUrl":"www.trojmiasto.pl",
+            "cacheUrl":"http://www.google.com/search?q\u003dcache:FCeqYGB3j8EJ:www.trojmiasto.pl",
+            "title":"\u003cb\u003eLufthansa Systems Poland\u003c/b\u003e Gda?sk - Trojmiasto.pl",
+            "titleNoFormatting":"Lufthansa Systems Poland Gda?sk - Trojmiasto.pl",
+            "content":"\u003cb\u003eLufthansa Systems Poland\u003c/b\u003e. Gda?sk. . Oferujemy szeroki wachlarz us?ug \nprogramistycznych, administracyjnych oraz internetowych. S?u?ymy wiedz? i�..."
+         },
+         {
+            "GsearchResultClass":"GwebSearch",
+            "unescapedUrl":"http://www.lhsystems.com/",
+            "url":"http://www.lhsystems.com/",
+            "visibleUrl":"www.lhsystems.com",
+            "cacheUrl":"http://www.google.com/search?q\u003dcache:6XpIRRntNYoJ:www.lhsystems.com",
+            "title":"\u003cb\u003eLufthansa Systems\u003c/b\u003e: Home",
+            "titleNoFormatting":"Lufthansa Systems: Home",
+            "content":"\u003cb\u003eLufthansa Systems\u003c/b\u003e will be supporting the in-flight operation of Chilean ... 22.06.\n2015 \u003cb\u003eLufthansa Systems\u003c/b\u003e secures Cathay Pacific as new client of SchedConnect."
+         },
+         {
+            "GsearchResultClass":"GwebSearch",
+            "unescapedUrl":"http://www.goldenline.pl/firma/lufthansa-systems/",
+            "url":"http://www.goldenline.pl/firma/lufthansa-systems/",
+            "visibleUrl":"www.goldenline.pl",
+            "cacheUrl":"http://www.google.com/search?q\u003dcache:l69A-1Ik4pYJ:www.goldenline.pl",
+            "title":"Praca w \u003cb\u003eLufthansa Systems Poland\u003c/b\u003e - GoldenLine",
+            "titleNoFormatting":"Praca w Lufthansa Systems Poland - GoldenLine",
+            "content":"Zobacz profil firmy \u003cb\u003eLufthansa Systems Poland\u003c/b\u003e na GoldenLine.pl. Najnowsze \ninformacje i opinie o firmie \u003cb\u003eLufthansa Systems Poland\u003c/b\u003e."
+         }
+      ],
+      "cursor":{
+         "resultCount":"60,600",
+         "pages":[
+            {
+               "start":"0",
+               "label":1
+            },
+            {
+               "start":"4",
+               "label":2
+            },
+            {
+               "start":"8",
+               "label":3
+            },
+            {
+               "start":"12",
+               "label":4
+            },
+            {
+               "start":"16",
+               "label":5
+            },
+            {
+               "start":"20",
+               "label":6
+            },
+            {
+               "start":"24",
+               "label":7
+            },
+            {
+               "start":"28",
+               "label":8
+            }
+         ],
+         "estimatedResultCount":"60600",
+         "currentPageIndex":0,
+         "moreResultsUrl":"http://www.google.com/search?oe\u003dutf8\u0026ie\u003dutf8\u0026source\u003duds\u0026start\u003d0\u0026hl\u003den\u0026q\u003dlufthansa+systems+poland",
+         "searchResultTime":"0.35"
+      }
+   },
+   "responseDetails":null,
+   "responseStatus":200
+}
