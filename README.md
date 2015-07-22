@@ -9,6 +9,8 @@ How to write untestable code
 *  Single responsibility principle
 *  Law of Demeter
 
+# Links
+
 [Miško Hevery blog](http://misko.hevery.com/)
 
 [SOLID](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
