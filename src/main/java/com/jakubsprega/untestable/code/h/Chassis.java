@@ -1,7 +1,8 @@
-package com.jakubsprega.untestable.code.g;
+package com.jakubsprega.untestable.code.h;
 
 /**
- *
+ * Chassis
+ * 
  * @author U519060
  */
 class Chassis {

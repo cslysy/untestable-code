@@ -1,7 +1,7 @@
-package com.jakubsprega.untestable.code.g;
+package com.jakubsprega.untestable.code.h;
 
 /**
- *
+ * Engine
  * @author U519060
  */
 class Engine {

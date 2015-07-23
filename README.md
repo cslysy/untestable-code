@@ -6,6 +6,7 @@
 *  Global state
 *  Static methods
 *  Breaking SRP
+*  Conditionals
 *  Breaking Law of Demeter
 
 ## Links

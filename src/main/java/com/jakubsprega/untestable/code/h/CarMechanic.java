@@ -1,4 +1,4 @@
-package com.jakubsprega.untestable.code.g;
+package com.jakubsprega.untestable.code.h;
 
 /**
  * Car mechanic
