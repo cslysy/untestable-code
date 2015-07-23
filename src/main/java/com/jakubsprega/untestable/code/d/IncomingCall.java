@@ -3,12 +3,13 @@ package com.jakubsprega.untestable.code.d;
 import java.util.Date;
 
 /**
- *
+ * Incoming call
+ * 
  * @author U519060
  */
-public class IncommingCall extends Call {
+public class IncomingCall extends Call {
 
-    public IncommingCall(long number, Date date) {
+    public IncomingCall(long number, Date date) {
         super(number, date);
     }
 }

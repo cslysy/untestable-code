@@ -6,8 +6,8 @@ package com.jakubsprega.untestable.code.api;
  */
 public class IncommingSmsMessage implements IncommingMessage {
 
-    String content;
-    String sender;
+    private final String content;
+    private final String sender;
 
     public IncommingSmsMessage(String content, String sender) {
         this.content = content;

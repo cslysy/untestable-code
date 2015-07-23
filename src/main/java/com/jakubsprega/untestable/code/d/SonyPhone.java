@@ -17,7 +17,7 @@ public class SonyPhone {
         PhoneSettings.getInstance().addRecentCall(call);
     }
     
-    public void answer(IncommingCall call){
+    public void answer(IncomingCall call){
         System.out.println("Answering the phone...");
         PhoneSettings.getInstance().addRecentCall(call);
     }

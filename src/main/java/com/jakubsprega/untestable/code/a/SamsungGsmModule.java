@@ -3,7 +3,8 @@ package com.jakubsprega.untestable.code.a;
 import com.jakubsprega.untestable.code.api.GsmModule;
 
 /**
- *
+ * Samsung GSM module
+ * 
  * @author U519060
  */
 public class SamsungGsmModule implements GsmModule {
@@ -15,7 +16,6 @@ public class SamsungGsmModule implements GsmModule {
         if(!connected){
             throw new IllegalStateException("Could not connect to ...");
         }
-        
     }
 
     @Override
@@ -29,5 +29,4 @@ public class SamsungGsmModule implements GsmModule {
         System.out.println("Sending sms");
         disconnect();
     }
-    
 }

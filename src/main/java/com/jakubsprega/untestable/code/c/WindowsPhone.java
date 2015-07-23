@@ -1,6 +1,7 @@
 package com.jakubsprega.untestable.code.c;
 
 import com.jakubsprega.untestable.code.api.GsmModule;
+import com.jakubsprega.untestable.code.api.OutgoingSmsMessage;
 import com.jakubsprega.untestable.code.api.Phone;
 
 /**
@@ -23,7 +24,9 @@ public class WindowsPhone implements Phone {
     }
 
     @Override
-    public void sendSMS(String to, String message) {
-        //NOP
+    public void sendSMS(OutgoingSmsMessage outgoingMessage) {
+        gsmModule.sendSMS(
+            outgoingMessage.getReceiver(), outgoingMessage.getContent()
+        );
     }
 }

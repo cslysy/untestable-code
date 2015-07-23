@@ -12,10 +12,12 @@ public class IPhone implements Phone {
     private List<OutgoingMessage> outgoingMessages;
 
     @Override
-    public void sendSMS(String to, String message) {
+    public void sendSMS(OutgoingSmsMessage outgoingMessage) {
         gsmModule.connect();
-        gsmModule.sendSMS(to, message);
-        outgoingMessages.add(new OutgoingSmsMessage(message, to));
+        gsmModule.sendSMS(
+            outgoingMessage.getReceiver(), outgoingMessage.getContent()
+        );
+        outgoingMessages.add(outgoingMessage);
         gsmModule.disconnect();
     }
 
