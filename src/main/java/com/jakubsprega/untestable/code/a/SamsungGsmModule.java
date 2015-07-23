@@ -5,7 +5,7 @@ import com.jakubsprega.untestable.code.api.GsmModule;
 /**
  * Samsung GSM module
  * 
- * @author U519060
+ * @author jakubsprega
  */
 public class SamsungGsmModule implements GsmModule {
 

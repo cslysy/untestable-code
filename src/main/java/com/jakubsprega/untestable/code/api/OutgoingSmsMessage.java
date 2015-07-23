@@ -3,7 +3,7 @@ package com.jakubsprega.untestable.code.api;
 /**
  * Outgoing SMS message
  * 
- * @author U519060
+ * @author jakubsprega
  */
 public class OutgoingSmsMessage implements OutgoingMessage {
     

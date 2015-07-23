@@ -7,7 +7,7 @@
 *  Static methods
 *  Breaking SRP
 *  Conditionals
-*  Breaking Law of Demeter
+*  Digging into collaborators - breaking Law of Demeter
 
 ## Links
 

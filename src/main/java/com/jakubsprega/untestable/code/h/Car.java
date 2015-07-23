@@ -3,7 +3,7 @@ package com.jakubsprega.untestable.code.h;
 /**
  * Car
  * 
- * @author U519060
+ * @author jakubsprega
  */
 public class Car {
 

@@ -3,7 +3,7 @@ package com.jakubsprega.untestable.code.h;
 /**
  * Chassis
  * 
- * @author U519060
+ * @author jakubsprega
  */
 class Chassis {
     

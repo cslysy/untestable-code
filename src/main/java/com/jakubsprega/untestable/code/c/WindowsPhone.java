@@ -7,7 +7,7 @@ import com.jakubsprega.untestable.code.api.Phone;
 /**
  * Windows phone
  *
- * @author U519060
+ * @author jakubsprega
  */
 public class WindowsPhone implements Phone {
 

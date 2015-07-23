@@ -3,7 +3,7 @@ package com.jakubsprega.untestable.code.e;
 /**
  * Weather icon
  *
- * @author U519060
+ * @author jakubsprega
  */
 public enum WeatherIcon {
 

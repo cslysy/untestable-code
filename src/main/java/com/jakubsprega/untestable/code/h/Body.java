@@ -2,7 +2,7 @@ package com.jakubsprega.untestable.code.h;
 
 /**
  *
- * @author U519060
+ * @author jakubsprega
  */
 class Body {
     

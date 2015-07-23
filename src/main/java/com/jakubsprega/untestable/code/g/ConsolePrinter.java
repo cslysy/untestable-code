@@ -3,7 +3,7 @@ package com.jakubsprega.untestable.code.g;
 /**
  * Console printer
  * 
- * @author U519060
+ * @author jakubsprega
  */
 public class ConsolePrinter {
     

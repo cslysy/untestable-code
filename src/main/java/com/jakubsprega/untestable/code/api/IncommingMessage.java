@@ -2,7 +2,7 @@ package com.jakubsprega.untestable.code.api;
 
 /**
  *
- * @author U519060
+ * @author jakubsprega
  */
 public interface IncommingMessage extends Message {
     

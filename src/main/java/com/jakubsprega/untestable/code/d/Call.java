@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  *
- * @author U519060
+ * @author jakubsprega
  */
 public abstract class Call {
     

@@ -5,7 +5,7 @@ import java.net.URL;
 
 /**
  *
- * @author U519060
+ * @author jakubsprega
  */
 public class YahooWeatherHelper {
 

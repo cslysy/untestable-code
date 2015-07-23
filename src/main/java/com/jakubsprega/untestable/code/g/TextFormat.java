@@ -3,7 +3,7 @@ package com.jakubsprega.untestable.code.g;
 /**
  * Text format
  * 
- * @author U519060
+ * @author jakubsprega
  */
 public enum TextFormat {
     

@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Incoming call
  * 
- * @author U519060
+ * @author jakubsprega
  */
 public class IncomingCall extends Call {
 

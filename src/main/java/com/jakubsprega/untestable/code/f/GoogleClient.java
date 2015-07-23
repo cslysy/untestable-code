@@ -9,7 +9,7 @@ import java.net.URLEncoder;
 /**
  * Google client
  * 
- * @author U519060
+ * @author jakubsprega
  */
 public class GoogleClient {
 

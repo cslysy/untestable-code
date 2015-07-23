@@ -2,7 +2,7 @@ package com.jakubsprega.untestable.code.e;
 
 /**
  *
- * @author U519060
+ * @author jakubsprega
  */
 public class WeatherWidget {
 

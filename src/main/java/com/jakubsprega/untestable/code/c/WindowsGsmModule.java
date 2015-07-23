@@ -4,7 +4,7 @@ import com.jakubsprega.untestable.code.api.GsmModule;
 
 /**
  *
- * @author U519060
+ * @author jakubsprega
  */
 public class WindowsGsmModule implements GsmModule {
 

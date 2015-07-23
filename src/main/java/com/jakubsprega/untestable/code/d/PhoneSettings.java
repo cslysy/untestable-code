@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  *
- * @author U519060
+ * @author jakubsprega
  */
 public class PhoneSettings {
     
