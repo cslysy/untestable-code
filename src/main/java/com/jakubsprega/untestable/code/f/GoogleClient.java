@@ -16,12 +16,17 @@ public class GoogleClient {
     public GoogleResult search(String searchPhrase) throws Exception {
         String googleApiUrl = "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=";
         String charset = "UTF-8";
-        URL url = new URL(googleApiUrl + URLEncoder.encode(searchPhrase, charset));
+        String googleRequestUrl = String.format(
+            "%s%s", googleApiUrl, URLEncoder.encode(searchPhrase, charset)
+        );
+        
+        URL url = new URL(googleRequestUrl);
         String rawJsonGoogleResponse = CharStreams.toString(
             new InputStreamReader(url.openStream(), charset)
         );
         
         GoogleResult results = new Gson().fromJson(rawJsonGoogleResponse, GoogleResult.class);
+        
         return results;
     }
 }
