@@ -5,11 +5,10 @@ import com.jakubsprega.untestable.code.api.OutgoingSmsMessage;
 import com.jakubsprega.untestable.code.api.Phone;
 
 public class SamsungGalaxyS3 implements Phone {
-    
-    private final GsmModule gsmModule = new SamsungGsmModule();
 
     @Override
     public void sendSMS(OutgoingSmsMessage outgoingMessage) {
+        GsmModule gsmModule = new SamsungGsmModule();
         gsmModule.sendSMS(
             outgoingMessage.getReceiver(), outgoingMessage.getContent()
         );
