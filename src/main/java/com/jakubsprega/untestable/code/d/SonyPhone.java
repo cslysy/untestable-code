@@ -1,6 +1,5 @@
 package com.jakubsprega.untestable.code.d;
 
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -11,10 +10,9 @@ public class SonyPhone {
     
     public static boolean SERVICE_MODE = false;
     
-    public void call(long number){
+    public void call(OutgoingCall outgoingCall){
         System.out.println("Calling...");
-        Call call = new OutgoingCall(number, new Date());
-        PhoneSettings.getInstance().addRecentCall(call);
+        PhoneSettings.getInstance().addRecentCall(outgoingCall);
     }
     
     public void answer(IncomingCall call){
