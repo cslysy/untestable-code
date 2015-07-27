@@ -5,22 +5,20 @@ package com.jakubsprega.untestable.code.api;
  * 
  * @author jakubsprega
  */
-public class OutgoingSmsMessage implements OutgoingMessage {
+public class SmsMessage {
     
     private final String content;
     private final String receiver;
 
-    public OutgoingSmsMessage(String content, String receiver) {
+    public SmsMessage(String content, String receiver) {
         this.content = content;
         this.receiver = receiver;
     }
 
-    @Override
     public String getContent() {
         return content;
     }
 
-    @Override
     public String getReceiver() {
         return receiver;
     }

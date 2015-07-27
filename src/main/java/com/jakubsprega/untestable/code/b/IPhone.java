@@ -1,23 +1,19 @@
 package com.jakubsprega.untestable.code.b;
 
 import com.jakubsprega.untestable.code.api.GsmModule;
-import com.jakubsprega.untestable.code.api.OutgoingMessage;
-import com.jakubsprega.untestable.code.api.OutgoingSmsMessage;
+import com.jakubsprega.untestable.code.api.SmsMessage;
 import com.jakubsprega.untestable.code.api.Phone;
-import java.util.List;
 
 public class IPhone implements Phone {
 
     private GsmModule gsmModule;
-    private List<OutgoingMessage> outgoingMessages;
 
     @Override
-    public void sendSMS(OutgoingSmsMessage outgoingMessage) {
+    public void sendSMS(SmsMessage sms) {
         gsmModule.connect();
         gsmModule.sendSMS(
-            outgoingMessage.getReceiver(), outgoingMessage.getContent()
+            sms.getReceiver(), sms.getContent()
         );
-        outgoingMessages.add(outgoingMessage);
         gsmModule.disconnect();
     }
 
@@ -27,9 +23,5 @@ public class IPhone implements Phone {
 
     public void setGsmModule(GsmModule gsmModule) {
         this.gsmModule = gsmModule;
-    }
-
-    public List<OutgoingMessage> getOutgoingMessages() {
-        return outgoingMessages;
     }
 }

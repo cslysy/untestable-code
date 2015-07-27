@@ -2,6 +2,6 @@ package com.jakubsprega.untestable.code.api;
 
 public interface Phone {
     
-    public void sendSMS(OutgoingSmsMessage outgoingMessage);
+    public void sendSMS(SmsMessage sms);
     
 }
