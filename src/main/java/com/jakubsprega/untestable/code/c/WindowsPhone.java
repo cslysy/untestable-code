@@ -1,8 +1,8 @@
 package com.jakubsprega.untestable.code.c;
 
 import com.jakubsprega.untestable.code.api.GsmModule;
-import com.jakubsprega.untestable.code.api.SmsMessage;
 import com.jakubsprega.untestable.code.api.Phone;
+import com.jakubsprega.untestable.code.api.SmsMessage;
 
 /**
  * Windows phone
@@ -23,7 +23,6 @@ public class WindowsPhone implements Phone {
         throw new IllegalStateException("Could not connect to windows store");
     }
 
-    @Override
     public void sendSMS(SmsMessage sms) {
         gsmModule.sendSMS(
             sms.getReceiver(), sms.getContent()
